@@ -24,12 +24,12 @@ public class Mahasiswa {
     public static void main(String[] args) {
         Mahasiswa mhs = new Mahasiswa();
         mhs.nama = "Rafi";
-        mhs.NIM = 123456;
-        mhs.kelas = "IF-1";
+        mhs.NIM = 2403003;
+        mhs.kelas = "TI-2A";
         
         mhs.tampilkanInfo();
         mhs.presensi();
         mhs.krs();
-        mhs.kumpulkanTugas("Pemrograman Java");
+        mhs.kumpulkanTugas("Pemrograman Berorientasi objek");
     }
 }
